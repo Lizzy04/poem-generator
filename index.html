@@ -7,38 +7,41 @@
     <title>AI French Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI French Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the French poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        The poem will go here
-      </div>
-    </main>
-    <footer>
-      This was coded by
-      <a href="https://github.com/Lizzy04" target="_blank"> Aisa Thole</a> and
-      is open-sourced
-      <a href="https://github.com/Lizzy04/poem-generator" target="_blank">
-        on Github</a
-      >
-      and hosted on
-      <a href="https://ai-poem-genrator.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI French Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the French poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          The poem will go here
+        </div>
+      </main>
+      <footer>
+        This was coded by
+        <a href="https://github.com/Lizzy04" target="_blank"> Aisa Thole</a> and
+        is open-sourced
+        <a href="https://github.com/Lizzy04/poem-generator" target="_blank">
+          on Github</a
+        >
+        and hosted on
+        <a href="https://ai-poem-genrator.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
